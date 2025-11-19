@@ -501,11 +501,7 @@ export default function BookBank() {
                                                         No Image
                                                     </div>
                                                 )}
-                                                <div className="absolute top-2 left-2 bg-white/80 backdrop-blur px-2 py-1 rounded text-xs font-medium shadow">
-                                                    {available
-                                                        ? "Available"
-                                                        : "Borrowed"}
-                                                </div>
+                                                
                                             </div>
                                             <div className="p-4 flex flex-col flex-1">
                                                 <div className="mb-2">
@@ -634,3 +630,4 @@ export default function BookBank() {
         </div>
     );
 }
+
