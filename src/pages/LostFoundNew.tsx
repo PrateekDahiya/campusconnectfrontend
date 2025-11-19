@@ -292,8 +292,8 @@ export default function LostFoundNew() {
                                         <StatusBadge
                                             status={
                                                 i.type === "lost"
-                                                    ? "warning"
-                                                    : "success"
+                                                    ? "lost"
+                                                    : "found"
                                             }
                                         />
                                         <Button
@@ -480,3 +480,4 @@ export default function LostFoundNew() {
         </div>
     );
 }
+
